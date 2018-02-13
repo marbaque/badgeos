@@ -786,6 +786,7 @@ function badgeos_get_current_page_post_id() {
  * @param $link
  * @return string
  */
+/*
 function badgeos_hide_next_hidden_achievement_link($link) {
 
 	if($link) {
@@ -802,13 +803,15 @@ function badgeos_hide_next_hidden_achievement_link($link) {
 
 }
 add_filter('next_post_link', 'badgeos_hide_next_hidden_achievement_link');
-
+*/
 /**
  * Hide the hidden achievement post link from previous post link
  *
  * @param $link
  * @return string
  */
+
+/*
 function badgeos_hide_previous_hidden_achievement_link($link) {
 
 
@@ -827,7 +830,7 @@ function badgeos_hide_previous_hidden_achievement_link($link) {
 }
 
 add_filter('previous_post_link', 'badgeos_hide_previous_hidden_achievement_link');
-
+*/
 
 /*
  * Get post link without hidden achievement link
